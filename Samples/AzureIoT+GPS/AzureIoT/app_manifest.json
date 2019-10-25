@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name": "GPS04",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "xxxx" ],
+  "Capabilities": {
+    "Uart": [ "$SAMPLE_UART" ],
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "iotc-xxxxx.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_BUTTON_2", "$SAMPLE_LED" ],
+    "DeviceAuthentication": "00000000-0000-0000-0000-000000000000"
+  },
+  "ApplicationType": "Default"
+}

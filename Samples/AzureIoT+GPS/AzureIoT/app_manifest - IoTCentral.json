@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne0006B7D5" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "iotc-d8058329-1456-43da-8101-b5fb59ce2951.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_BUTTON_2", "$SAMPLE_LED" ],
+    "DeviceAuthentication": "10d62667-1430-4118-86d2-38f8bf430627"
+  },
+  "ApplicationType": "Default"
+}
