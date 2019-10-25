@@ -8,6 +8,7 @@ This sample is modyfication of AzureIoT sample.
 This application does the following:
 
 - Sends GPS position to Azure IoT Central or an Azure IoT Hub at regular intervals.
+- In IoT Central current location can be display on map.
 
 Before you can run the sample, you must configure either an Azure IoT Central application or an Azure IoT Hub, and modify the sample's application manifest to enable it to connect to the Azure IoT resources that you configured.
 
