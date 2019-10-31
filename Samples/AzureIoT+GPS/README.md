@@ -2,6 +2,9 @@
 
 This sample demonstrates how to get data from GPS and put it to IoT Central and display on Map.
 This sample is modyfication of AzureIoT sample.
+Hardware used Azure Sphere AVNET + GPS NEO-6M
+[How is it working](https://youtu.be/I-6VPgB3sU4?t=1).
+
 
 **IMPORTANT**: This sample application requires customization before it will compile and run. Follow the instructions in this README and in IoTCentral.md and/or IoTHub.md to perform the necessary steps.
 
